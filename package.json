@@ -1,4 +1,5 @@
 {
+  "homepage": "https://hexedhorizon.github.io/ionic-it35",
   "name": "ionic-it35",
   "private": true,
   "version": "0.0.1",
@@ -9,7 +10,9 @@
     "preview": "vite preview",
     "test.e2e": "cypress run",
     "test.unit": "vitest",
-    "lint": "eslint"
+    "lint": "eslint",
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@capacitor/app": "5.0.7",
