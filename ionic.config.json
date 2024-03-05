@@ -1,0 +1,7 @@
+{
+  "name": "ionic-it35",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
